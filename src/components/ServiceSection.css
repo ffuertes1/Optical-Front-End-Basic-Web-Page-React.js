@@ -1,0 +1,66 @@
+/* Service Section Styles */
+.service-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px; /* Space between items */
+    margin-bottom: 20px; /* Bottom margin for spacing */
+    padding: 20px;
+}
+
+.service-item {
+    flex: 1 1 30%; /* Each item takes equal space and flexes as needed */
+    text-align: center; /* Center align the content */
+    padding: 10px; /* Padding inside each service item */
+    border: 1px solid #ccc; /* Optional border */
+    border-radius: 5px; /* Optional rounded corners */
+    background-color: #f9f9f9; /* Light background for each service item */
+    box-sizing: border-box; /* Ensure padding and border are included in the element's total width and height */
+    opacity: 0; /* Hide initially */
+    transition: opacity 0.6s ease-in-out, transform 0.6s ease-in-out; /* Smooth transition */
+    max-width: 400px; /* Smaller size */
+}
+
+.service-item img {
+    max-width: 100%; /* Make image responsive */
+    height: auto; /* Maintain aspect ratio */
+    display: block; /* Ensure images are centered */
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px; /* Space between image and text */
+    border-radius: 5px; /* Rounded corners for images */
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 768px) {
+    .service-item {
+        flex: 1 1 48%; /* Two items per row on medium screens */
+    }
+}
+
+@media (max-width: 576px) {
+    .service-item {
+        flex: 1 1 100%; /* One item per row on small screens */
+    }
+}
+
+/* Animation Styles */
+.animate {
+    opacity: 1; /* Make visible */
+    transform: scale(1); /* Reset scale */
+}
+
+.zoomIn {
+    animation-name: zoomIn;
+}
+
+@keyframes zoomIn {
+    from {
+        opacity: 0;
+        transform: scale(0.7); /* Slightly smaller initial scale for smoother effect */
+    }
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+}

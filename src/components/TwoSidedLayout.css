@@ -1,0 +1,94 @@
+/* General Card Styles */
+.card {
+    margin-bottom: 20px; /* Consistent spacing between elements */
+    background-color: #fff; /* White background for clarity */
+    border: 1px solid #ccc; /* Subtle border */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.15); /* Slightly deeper shadow for better depth */
+    padding: 20px; /* Padding inside the card for spacing around content */
+}
+
+.card-title {
+    color: #333; /* Dark color for titles */
+}
+
+.card-text {
+    color: #555; /* Medium gray for text, ensures readability */
+}
+
+/* About Text Styles */
+.about-text {
+    padding: 10px;
+    background-color: #f8f9fa; /* Light background for contrast */
+    border-left: 5px solid #0056b3; /* A blue left border for visual interest */
+    color: #333; /* Dark grey for text for readability */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Modern, readable font */
+    line-height: 1.6; /* Enhances readability */
+    font-size: 18px; /* Slightly larger font for easier reading */
+    margin-bottom: 20px;
+}
+
+.about-text p {
+    text-align: justify; /* Justify text for a clean look */
+    margin-bottom: 15px; /* Space between paragraphs */
+}
+
+/* Info Section Styles */
+.info-sections {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; /* Even spacing between sections */
+    gap: 10px; /* Space between items */
+    margin-bottom: 20px; /* Bottom margin for spacing */
+}
+
+.info-item {
+    flex: 1; /* Each item takes equal space */
+    max-width: 31%; /* Limit max width to three items per row */
+    text-align: center; /* Center align the content */
+    padding: 10px; /* Padding inside each info item */
+    border: 1px solid #ccc; /* Optional border */
+    border-radius: 5px; /* Optional rounded corners */
+    background-color: #f9f9f9; /* Light background for each info item */
+    box-sizing: border-box; /* Ensure padding and border are included in the element's total width and height */
+}
+
+.info-image {
+    max-width: 100%; /* Make image responsive */
+    height: auto; /* Maintain aspect ratio */
+    display: block; /* Ensure images are centered */
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px; /* Space between image and text */
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 768px) {
+    .info-item {
+        max-width: 48%; /* Two items per row on medium screens */
+    }
+}
+
+@media (max-width: 576px) {
+    .info-item {
+        max-width: 100%; /* One item per row on small screens */
+    }
+}
+
+/* Video Container Styles */
+.video-container {
+    background-color: #fff; /* Consistent background color */
+    border: 1px solid #ccc; /* Consistent border style */
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1); /* Consistent shadow for depth */
+    margin-bottom: 20px; /* Consistent spacing between elements */
+}
+
+/* Frame Image Styles */
+.frame-img {
+    height: 150px;  /* Adjust the height to make the frames smaller */
+    object-fit: cover;
+}
+
+/* Container Styles */
+.container {
+    margin-top: 20px;
+}

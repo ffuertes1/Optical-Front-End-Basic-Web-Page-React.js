@@ -1,0 +1,44 @@
+/* src/components/Header.css */
+.header {
+    background-color: #2f2e2e; /* White background to match the white logo */
+    padding: 40px 20px; /* Padding for some space inside the header */
+    display: flex; /* Using flex to align items */
+    align-items: center; /* Center items vertically */
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1); /* Optional: adds shadow for some depth */
+}
+
+.logo {
+    height: 150px; /* Adjust based on your logo's size */
+    
+     /* Maintain aspect ratio */
+}
+.center-image {
+    width: 200px;  /* Set the width of your image */
+    height: 100px;  /* Maintain aspect ratio */
+    flex: 0 0 100px; /* flex-grow, flex-shrink, flex-basis */
+}
+.widget-wrap {
+    padding: 20px; /* Adjust padding as needed */
+    background-color: #6e6a6a; /* Light grey background, adjust as needed */
+}
+
+.widget-heading .heading-title {
+    font-size: 19px; /* Medium size font */
+    color: #f2eded; /* Dark grey color for text */
+    margin: 0 0 10px; /* No margin on top, small margin on bottom */
+}
+
+.widget-button .call-button {
+    display: inline-block; /* Makes the link behave like a button */
+    background-color: #e47f0b; /* Bootstrap primary button color */
+    color: white; /* Text color */
+    text-decoration: none; /* No underline */
+    padding: 10px 50px; /* Padding inside the button */
+    border-radius: 5px; /* Rounded corners */
+    font-size: 18px; /* Font size */
+}
+
+.widget-button .call-button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+

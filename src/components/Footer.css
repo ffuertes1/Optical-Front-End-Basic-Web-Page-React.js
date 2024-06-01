@@ -1,0 +1,24 @@
+/* Footer Styles */
+.footer {
+    background-color: #f8f9fa;
+    padding: 20px;
+    margin-top: 20px;
+    text-align: center;
+    border-top: 1px solid #ccc; /* Subtle top border */
+}
+
+.footer-content p {
+    margin: 5px 0; /* Space between lines */
+    color: #333; /* Dark grey for text */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Modern, readable font */
+    font-size: 16px; /* Standard font size */
+}
+
+.footer-content a {
+    color: #0056b3; /* Blue color for links */
+    text-decoration: none; /* No underline for links */
+}
+
+.footer-content a:hover {
+    text-decoration: underline; /* Underline on hover */
+}
