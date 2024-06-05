@@ -11,7 +11,7 @@ import Footer from './components/Footer';
 import 'mdb-react-ui-kit/dist/css/mdb.min.css';
 //import React from 'react';
 import ReactDOM from 'react-dom';
-import GalleryComponent from './components/GalleryComponent';
+//import GalleryComponent from './components/GalleryComponent';
 
 //import App from './App';
 
@@ -23,7 +23,7 @@ function App() {
         <div className="App">
             <Header />
             <Navbar /> 
-            <GalleryComponent/>
+            
             <TwoSidedLayout/>
             <ServiceSection/>
             <Footer/>
