@@ -14,19 +14,19 @@ import ReactDOM from 'react-dom';
 //import GalleryComponent from './components/GalleryComponent';
 
 //import App from './App';
-
+//import DoctorCarousel from './components/DoctorCarousel';
 ReactDOM.render(<App />, document.getElementById('root'));
 
 
 function App() {
     return (
         <div className="App">
-            <Header />
-            <Navbar /> 
             
+            <Navbar /> 
             <TwoSidedLayout/>
             <ServiceSection/>
             <Footer/>
+            
             
 
         </div>

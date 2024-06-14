@@ -1,9 +1,71 @@
-
 /* Navbar.css */
 .navbar {
-    height: 60px;
-    background-color: #1987e7;  
-    color: white; 
- 
+    height: 80x;
+    background-color: #f5f5dc;  /* Bone white color */
+    display: flex;
+    
+    padding: 0 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    position: relative;
 }
 
+.navbar-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1200px;
+}
+
+.logo {
+    height: 70px; 
+    width:  flex;  /* Maintain aspect ratio */
+}
+
+.nav-links {
+    display: flex;
+    gap: 50px;
+}
+
+.nav-links a {
+    color: #333;
+    text-decoration: none;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.widget-button .call-button {
+    display: inline-block;
+    background-color: #030303;
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 18px;
+    margin-right: auto;
+}
+
+.widget-button .call-button:hover {
+    background-color: #90969c;
+}
+
+@media (max-width: 768px) {
+    .navbar-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .nav-links {
+        flex-direction: column;
+        gap: 10px;
+        margin-top: 10px;
+        align-items: center;
+    }
+
+    .call-button {
+        width: 100%;
+        text-align: center;
+        margin-top: 10px;
+        
+    }
+}
