@@ -1,7 +1,7 @@
 /* Navbar.css */
 .navbar {
-    height: 80x;
-    background-color: #f5f5dc;  /* Bone white color */
+    height: flex;
+    background-color: #ffffff;  /* Bone white color */
     display: flex;
     
     padding: 0 20px;
@@ -18,8 +18,9 @@
 }
 
 .logo {
-    height: 70px; 
+    height: 90px; 
     width:  flex;  /* Maintain aspect ratio */
+   
 }
 
 .nav-links {
@@ -30,7 +31,7 @@
 .nav-links a {
     color: #333;
     text-decoration: none;
-    font-size: 20px;
+    font-size: 25px;
     cursor: pointer;
 }
 

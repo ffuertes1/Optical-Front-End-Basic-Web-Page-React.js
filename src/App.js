@@ -1,5 +1,6 @@
 // In App.js
 import React from 'react';
+
 import Header from './components/Header';
 import Navbar from './components/Navbar';  // Ensure this path matches the file location
 //import TextCardsLayout from './components/TextCardsLayout';
@@ -12,7 +13,9 @@ import 'mdb-react-ui-kit/dist/css/mdb.min.css';
 //import React from 'react';
 import ReactDOM from 'react-dom';
 //import GalleryComponent from './components/GalleryComponent';
-
+import CarouselComponent from './components/CarouselComponent';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap/dist/js/bootstrap.bundle.min';
 //import App from './App';
 //import DoctorCarousel from './components/DoctorCarousel';
 ReactDOM.render(<App />, document.getElementById('root'));
@@ -25,6 +28,7 @@ function App() {
             <Navbar /> 
             <TwoSidedLayout/>
             <ServiceSection/>
+            <CarouselComponent/>
             <Footer/>
             
             
