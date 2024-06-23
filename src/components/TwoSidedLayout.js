@@ -15,7 +15,7 @@ function TwoSidedLayout() {
         {
             title: 'Schedules',
             description: 'Monday thru Saturday / 9:00am to 5:00pm',
-            imageUrl: 'Screenshot 2024-06-14 173133.png'
+            imageUrl: 'https://opticaencarolina.com/wp-content/uploads/sites/240/2023/02/map.pngnpm '
         },
         {
             title: 'Location',
