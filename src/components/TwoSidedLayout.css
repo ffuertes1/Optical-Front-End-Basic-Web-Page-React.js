@@ -1,7 +1,7 @@
 /* General Card Styles */
 .card {
     margin-bottom: 20px;
-    background-color: #f5f5dc;
+    background-color: #ffffff;
     border: none;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
     padding: 20px;
@@ -9,21 +9,21 @@
 }
 
 .card-title {
-    color: #f5f5dc;
+    color: #ffffff;
 }
 
 .card-text {
-    color: #f5f5dc;
+    color: #000000;
 }
 
 /* About Text Styles */
 .about-text {
     padding: 20px;
-    background-color: #f5f5dc;
+    background-color: #ffffff;
     color: #000000;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     line-height: 1.6;
-    font-size: 18px;
+    font-size: 20px;
     margin-bottom: 20px;
     border-radius: 10px;
     overflow-y: auto;
@@ -47,8 +47,8 @@
     margin: 0 15px 10px 0;
     width: 250px;
     height: 150px;
-    border: 1px solid #030304;
-    background-color: #f5f5dc;
+    border: 1px solid #ffffff;
+    background-color: #FF7F50;
     padding: 10px;
 }
 
@@ -67,7 +67,7 @@
     text-align: center;
     padding: 20px;
     border-radius: 10px;
-    background-color: #f5f5dc;
+    background-color: #ffffff;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
 }
 
@@ -117,17 +117,17 @@
     gap: 20px;
     margin-top: 20px;
     padding: 20px;
-    background-color: #f5f5dc;
+    background-color: #ffffff;
 }
 
 .left-column {
     flex: 1;
-    background-color: #f5f5dc;
+    background-color: #ffffff;
 }
 
 .right-column {
     flex: 2;
-    background-color: #f5f5dc;
+    background-color: #ffffff;
 }
 
 .scrollable {
@@ -155,7 +155,7 @@
 
     .container {
         flex-direction: column;
-        background-color: #f5f5dc;
+        background-color: #ffffff;
     }
 
     .about-text {

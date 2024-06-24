@@ -4,25 +4,27 @@
 
 .carousel-inner .col-md-6 {
   padding: 10px;
+  background-color: #F0F8FF;
 }
 
 .carousel-inner .col-md-6 img {
   max-width: 100%;
   height: auto;
-  border: 1px solid #dee2e6;
+  border: 1px solid #F0F8FF;
   border-radius: 5px;
+  background-color: #F0F8FF;
 }
 
 .carousel-inner .text-container {
-  background-color: #f8f9fa;
+  background-color: #F0F8FF;
   padding: 10px;
-  border: 1px solid #dee2e6;
+  border: 1px solid #F0F8FF;
   border-radius: 5px;
   text-align: center;
 }
 
 .carousel-control-prev-icon,
 .carousel-control-next-icon {
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: #F0F8FF;
   border-radius: 50%;
 }

@@ -1,7 +1,7 @@
 /* Navbar.css */
 .navbar {
     height: flex;
-    background-color: #ffffff;  /* Bone white color */
+    background-color: #193A6F;  /* Bone white color */
     display: flex;
     
     padding: 0 20px;
@@ -26,18 +26,25 @@
 .nav-links {
     display: flex;
     gap: 50px;
+    color: #FFFFFF;
 }
 
 .nav-links a {
-    color: #333;
+    color: #ffffff;
     text-decoration: none;
     font-size: 25px;
     cursor: pointer;
 }
 
+.nav-links a:hover{
+background-color: #FF7F50;
+
+}
+
+
 .widget-button .call-button {
     display: inline-block;
-    background-color: #030303;
+    background-color: #f39b17;
     color: white;
     text-decoration: none;
     padding: 10px 20px;

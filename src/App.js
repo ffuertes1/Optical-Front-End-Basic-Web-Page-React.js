@@ -6,17 +6,18 @@ import Navbar from './components/Navbar';  // Ensure this path matches the file 
 import TwoSidedLayout from './components/TwoSidedLayout';
 import ServiceSection from './components/ServiceSection';
 import Footer from './components/Footer';
-import CarouselComponent from './components/CarouselComponent';
-
+//import CarouselComponent from './components/CarouselComponent';
+//import GalleryComponents from './components/Footer';
 import 'mdb-react-ui-kit/dist/css/mdb.min.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min';
-
+import CarouselComponent from './components/CarouselComponent'
 function App() {
     return (
         <div className="App">
             <Navbar />
             <section id="home">
+            <CarouselComponent/>
             </section>
             <section id="about">
                 <TwoSidedLayout />
@@ -24,9 +25,7 @@ function App() {
             <section id="services">
                 <ServiceSection />
             </section>
-            <section id="frames">
-                <CarouselComponent />
-            </section>
+            
             <Footer />
         </div>
     );
