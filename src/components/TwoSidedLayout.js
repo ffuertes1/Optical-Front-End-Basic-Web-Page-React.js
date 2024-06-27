@@ -1,16 +1,9 @@
 import React from 'react';
-import { Carousel } from 'react-bootstrap';
 import { Card } from 'flowbite-react';
 import { useInView } from 'react-intersection-observer';
 import './TwoSidedLayout.css'; // Ensure CSS is set up correctly
 
 function TwoSidedLayout() {
-    const frames = [
-        { id: 1, src: "glasses-silhouettes-fashion-sunglasses-frames-with-orange-background-free-vector.jpg", alt: "Frame 1" },
-        { id: 2, src: "path/to/frame2.jpg", alt: "Frame 2" },
-        { id: 3, src: "path/to/frame3.jpg", alt: "Frame 3" }
-    ];
-
     const infoSections = [
         {
             title: 'Schedules',
@@ -70,19 +63,19 @@ function TwoSidedLayout() {
                         </Card>
                     ))}
                 </div>
-                <div className="mb-4">
-                    <h5>Frames</h5>
-                    <Carousel>
-                        {frames.map(frame => (
-                            <Carousel.Item key={frame.id}>
-                                <img
-                                    className="d-block w-100 frame-img"
-                                    src={frame.src}
-                                    alt={frame.alt}
-                                />
-                            </Carousel.Item>
-                        ))}
-                    </Carousel>
+                <div className="map-location-section mb-4">
+                    <h5>Find Us Here</h5>
+                    <iframe
+                        className="map-iframe"
+                         src="https://maps.google.com/maps?q=Rm%20optica&amp;t=m&amp;z=17&amp;output=embed&amp;iwloc=near"
+                        width="100%"
+                        height="300"
+                        style={{ border: 0 }}
+                        allowFullScreen=""
+                        loading="lazy"
+                        referrerPolicy="no-referrer-when-downgrade"
+                        title="RM Optical Location"
+                    ></iframe>
                 </div>
                 <div className="video-section">
                     <div ref={videoRef1} className={`video-container ${videoVisible1 ? 'visible' : ''}`}>
